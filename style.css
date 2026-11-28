@@ -80,11 +80,34 @@ body {
   flex-shrink: 0;
 }
 
+@font-face {
+  font-family: 'Relationship of Melodrame';
+  src: url('Relationship of melodrame.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('Coolvetica Rg.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 .brand-logo-text {
-  font-family: 'Great Vibes', cursive;
-  font-size: 2.4rem;
+  font-family: 'Coolvetica', 'Plus Jakarta Sans', sans-serif;
+  font-size: 2.1rem;
   line-height: 1;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.6px;
+}
+
+.logo-initial {
+  font-family: 'Relationship of Melodrame', cursive;
+  font-size: 2.7rem;
+  line-height: 1;
+  margin-right: 1px;
 }
 
 /* Navegación de computadora oculta en móvil */
@@ -336,7 +359,11 @@ body {
   }
 
   .brand-logo-text {
-    font-size: 2.7rem;
+    font-size: 2.35rem;
+  }
+
+  .logo-initial {
+    font-size: 3.1rem;
   }
 
   .desktop-nav {
